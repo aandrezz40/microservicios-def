@@ -1,4 +1,4 @@
-package com.usuario.service.servicio;
+package com.usuario.service.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.usuario.service.entidades.Usuario;
+import com.usuario.service.entity.Usuario;
 import com.usuario.service.feignclients.CarroFeignClient;
 import com.usuario.service.feignclients.MotoFeignClient;
-import com.usuario.service.modelos.Carro;
-import com.usuario.service.modelos.Moto;
-import com.usuario.service.repositorio.UsuarioRepository;
+import com.usuario.service.models.Carro;
+import com.usuario.service.models.Moto;
+import com.usuario.service.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {

@@ -1,4 +1,4 @@
-package com.usuario.service.controlador;
+package com.usuario.service.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.usuario.service.entidades.Usuario;
-import com.usuario.service.modelos.Carro;
-import com.usuario.service.modelos.Moto;
-import com.usuario.service.servicio.UsuarioService;
+import com.usuario.service.entity.Usuario;
+import com.usuario.service.models.Carro;
+import com.usuario.service.models.Moto;
+import com.usuario.service.service.UsuarioService;
 
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 

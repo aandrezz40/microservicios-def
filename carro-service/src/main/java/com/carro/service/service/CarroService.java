@@ -1,12 +1,12 @@
-package com.carro.service.servicios;
+package com.carro.service.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.carro.service.entidades.Carro;
-import com.carro.service.repositorio.CarroRepository;
+import com.carro.service.entity.Carro;
+import com.carro.service.repository.CarroRepository;
 
 @Service
 public class CarroService {

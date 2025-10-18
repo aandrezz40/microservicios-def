@@ -1,12 +1,12 @@
-package com.moto.service.servicios;
+package com.moto.service.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.moto.service.entidades.Moto;
-import com.moto.service.repositorio.MotoRepository;
+import com.moto.service.entity.Moto;
+import com.moto.service.repository.MotoRepository;
 
 @Service
 public class MotoService {

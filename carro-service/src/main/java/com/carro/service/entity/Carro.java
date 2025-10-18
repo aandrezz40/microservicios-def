@@ -1,4 +1,4 @@
-package com.carro.service.entidades;
+package com.carro.service.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

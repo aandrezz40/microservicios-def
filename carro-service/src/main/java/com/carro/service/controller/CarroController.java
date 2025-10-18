@@ -1,4 +1,4 @@
-package com.carro.service.controladores;
+package com.carro.service.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carro.service.entidades.Carro;
-import com.carro.service.servicios.CarroService;
+import com.carro.service.entity.Carro;
+import com.carro.service.service.CarroService;
 
 @RestController
 @RequestMapping("/carro")

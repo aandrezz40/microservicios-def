@@ -1,4 +1,4 @@
-package com.usuario.service.modelos;
+package com.usuario.service.models;
 
 public class Carro {
 

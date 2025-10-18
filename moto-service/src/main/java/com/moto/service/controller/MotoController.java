@@ -1,4 +1,4 @@
-package com.moto.service.controladores;
+package com.moto.service.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.moto.service.entidades.Moto;
-import com.moto.service.servicios.MotoService;
+import com.moto.service.entity.Moto;
+import com.moto.service.service.MotoService;
 
 @RestController
 @RequestMapping("/moto")

@@ -1,4 +1,4 @@
-package com.moto.service.entidades;
+package com.moto.service.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
