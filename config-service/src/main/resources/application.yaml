@@ -1,11 +1,12 @@
 server:
   port: 8081
 spring:
-  cloud:    config:
+  cloud:
+    config:
       server:
         git:
-          default-label: zipkin-sleuth
-          uri: https://github.com/ChristianRaulRamirez/microservicios-tutorial
+          default-label: config-server
+          uri: https://github.com/aandrezz40/microservicios-def
           search-paths: config-data
   application:
     name: config-service
